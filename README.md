@@ -1,5 +1,6 @@
 <h3>Procedimiento de instalación</h3>
 https://ventor.tech/odoo/odoo-installation-script/
+
 1. **Descarga el script:**
 ``texto
 clon git https://github.com/ventor-tech/odoo-install-script
