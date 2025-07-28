@@ -2,7 +2,7 @@
 #--------------------------------------------------
 # Install Dependencies
 #--------------------------------------------------
-if [ $OE_VERSION = "10.0" ] || [ $OE_VERSION = "11.0" ] || [ $OE_VERSION = "12.0" ] || [ $OE_VERSION = "13.0" ] || [ $OE_VERSION = "14.0" ] || [ $OE_VERSION = "15.0" ]; then
+if [ $OE_VERSION = "10.0" ] || [ $OE_VERSION = "11.0" ] || [ $OE_VERSION = "12.0" ] || [ $OE_VERSION = "13.0" ] || [ $OE_VERSION = "14.0" ] || [ $OE_VERSION = "15.0" ]  || [ $OE_VERSION = "16.0" ] || [ $OE_VERSION = "17.0" ] || [ $OE_VERSION = "18.0" ]; then
     OE_BIN="odoo-bin"
 else
     OE_BIN="openerp-server"
@@ -12,7 +12,7 @@ echo -e "\n---- Python Dependencies ----"
 
 if [ $PYTHON_VERSION = "3" ]; then
 #----------------- Python 3 ------------------
-    if [ $(which python3.6) ] || [ $(which python3.7) ] || [ $(which python3.8) ] || [ $(which python3.9) ]; then
+    if [ $(which python3.6) ] || [ $(which python3.7) ] || [ $(which python3.8) ] || [ $(which python3.9) ] || [ $(which python3.10) ] || [ $(which python3.11) ] || [ $(which python3.12) || [ $(which python3.13) ] || [ $(which python3.14) ]; then
         sudo apt-get install -y python3-pip python3-dev python3-setuptools python3-venv
     else
         echo "System has wrong python version! Odoo supports only 3.6+ python"
