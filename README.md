@@ -4,7 +4,7 @@ https://ventor.tech/odoo/odoo-installation-script/
 1. **Descarga el script:**
 ``texto
 
-clon git https://github.com/nuxtel/odoo-install-script-ec
+git clone https://github.com/nuxtel/odoo-install-script-ec
 ```
 2. **Modifique los parámetros como desee.**
 Hay algunas cosas que puedes configurar, esta es la lista más utilizada:
